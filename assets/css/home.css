@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+#contact-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   
+
+}
+#contact-list-items{
+    width: 40%;
+}
+#contact-list-item{
+   display: flex;
+   flex-direction: row;
+   
+   justify-content: space-between;
+   background-color:  rgba(0, 110, 255, 0.747);
+   margin:1px;
+
+   color:white;
+
+}
+form{
+   width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#contact-list-item:hover{
+    background-color:rgba(0, 68, 255, 0.856);
+}
+#name,#phone{
+    padding: 5px;
+    margin: 3px;
+}
+.input-name,.input-phone{
+   border: none;
+   background-color: whitesmoke;
+   padding: 3px;
+ 
+}
+.button{
+    background-color: rgb(110, 107, 107);
+    border: none;
+    color: aliceblue;
+    padding: 3px 8px;
+}
+.button:hover{
+    background-color: rgb(36, 35, 35); 
+}
